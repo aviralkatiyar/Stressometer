@@ -1,0 +1,102 @@
+.ff{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 70px;
+
+
+}
+.f1{
+    border: 2px solid sandybrown;
+    border-radius:20px;
+
+}
+
+.fg{
+    display: flex;
+    margin-top: 40px;
+    margin-left:70px;
+}
+
+.f1{
+   margin: 20px 20px 20px 20px ;
+   border: 2px solid sandybrown;
+    border-radius:20px;
+    padding: 60px;
+    color:white;
+    font-weight: bolder;
+    box-shadow:10px 5px rgb(202, 142, 142);
+    background-image: linear-gradient(to bottom right,brown,pink);
+    transition: transform .2s; 
+}
+.f2{
+    margin: 20px 20px 20px 20px ;
+    border: 2px solid sandybrown;
+    color:white;
+    font-weight: bolder;
+    border-radius:20px;
+    padding: 60px;
+    box-shadow:10px 5px rgb(202, 142, 142);
+    background-image: linear-gradient(to bottom right,brown,pink);
+    transition: transform .2s; 
+ }.f3{
+    margin: 20px 20px 20px 20px ;
+    border: 2px solid sandybrown;
+    color:white;
+    font-weight: bolder;
+    border-radius:20px;
+    padding: 60px;
+    box-shadow:10px 5px rgb(202, 142, 142);
+    background-image: linear-gradient(to bottom right,brown,pink);
+    transition: transform .2s; 
+ }.f4{
+    margin:20px 20px 20px 20px  ;
+    border: 2px solid sandybrown;
+    color:white;
+    font-weight: bolder;
+    border-radius:20px;
+    padding: 60px;
+    box-shadow:10px 5px rgb(202, 142, 142);
+    background-image: linear-gradient(to bottom right,brown,pink);
+    transition: transform .2s; 
+ }.f5{
+    margin: 20px 20px 20px 20px ;
+    border: 2px solid sandybrown;
+    color:white;
+    font-weight: bolder;
+    border-radius:20px;
+    padding: 60px;
+    background-image: linear-gradient(to bottom right,brown,pink);
+    box-shadow:10px 5px rgb(202, 142, 142);
+    transition: transform .2s; 
+    color:white;
+    font-weight: bolder;
+ }.f6{
+    margin: 20px 20px 20px 20px ;
+    border: 2px solid sandybrown;
+    color:white;
+    font-weight: bolder;
+    
+    border-radius:20px;
+    padding:60px;
+    box-shadow:10px 5px rgb(202, 142, 142);
+    background-image: linear-gradient(to bottom right,brown,pink);
+    transition: transform .2s; 
+ }
+ .f1:hover{
+    transform: scale(1.2); 
+}
+.f2:hover{
+    transform: scale(1.2); 
+}
+.f3:hover{
+    transform: scale(1.2); 
+}
+.f4:hover{
+    transform: scale(1.2); 
+}
+.f5:hover{
+    transform: scale(1.2); 
+}
+.f6:hover{
+    transform: scale(1.2); 
+}

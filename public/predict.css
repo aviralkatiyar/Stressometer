@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+}
+
+
+header{
+    width:100%;
+    height:100vh;
+    background:url('predict.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    font-family: sans-serif;
+
+
+
+}
+nav{
+width: 100%;
+height:10%;
+
+color: aqua;
+display: flex;
+justify-content: space-around;
+align-items: center;
+border:1px solid burlywood;
+background-color: burlywood;
+}
+
+.logo{
+    color:black;
+    font-weight: bold;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+    
+    
+
+}
+.text{
+    font-size: 22px;
+    margin-top: 18px;
+    font-style: oblique;
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+
+}
+img{
+   width:25%;
+   height:60%;
+   
+
+   
+    
+
+
+}
+
+.m{
+    
+   letter-spacing: 100px;
+}
+
+
+
+/* CSS */
+.button-2 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-2:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.button-1 {
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-1:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+  .button-0{
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-0:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+  
+
+/* CSS */
+
+
+
+.button-63{
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.ev{
+    margin-top: 50px;
+    margin-left: 130px;
+    font-family:monospace;
+    font-size:50px;
+    color: rgb(105, 18, 18);
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+    
+}
+a{
+    text-decoration: none;
+}
+.cont0{
+    margin-left:8%;
+    margin-top: 6%;
+
+    
+    display: flex;
+    flex-direction: row;
+}
+.cont1{
+    margin-right: 100px;
+    padding: 50px;
+    border: 1px solid white;
+    border-radius:10px;
+    background-image: linear-gradient(to bottom right,brown,pink);
+    box-shadow:10px 5px rgb(202, 142, 142);
+    transition: transform .2s; 
+    text-decoration: none;
+    font-weight: bolder;
+    color: whitesmoke;
+    font-size:large;
+}
+
+.cont2{
+    
+    width:100%;
+   padding:50px;
+    border: 1px solid white;
+    border-radius:10px;
+    background-image: linear-gradient(to bottom right,brown,pink);
+    box-shadow:10px 5px rgb(202, 142, 142);
+    transition: transform .2s; 
+    text-decoration: none;
+    font-weight: bolder;
+    color:white;
+    font-size: large;
+}
+.cont1:hover{
+    transform: scale(1.2); 
+}
+.cont2:hover{
+    transform: scale(1.2); 
+}
+.c2{
+
+    margin-top: 80px;
+    margin-left: 130px;
+    margin-right:50%;
+    font-weight: lighter;
+    font-size: larger;
+    font-family: monospace;
+    border: 2px solid brown;
+    padding-left: 10px;
+    border-radius:25px;
+}
+.tp{
+
+  padding: 80px;
+  margin-left:1000px;
+  margin-right: 200px;
+  margin-top: 200px;
+  border:10px solid rgb(124, 226, 124);
+  border-radius: 20px;
+  background-color: rgb(195, 239, 195);
+  box-shadow:10px 20px rgb(161, 218, 161);
+}
+.txt{
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  font-weight: bolder;
+ 
+  margin-right:380px;
+}
+
+.hi{
+  
+
+/* CSS */
+
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.hi:hover,
+.hi:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.hi:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.hi:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+.avi{
+ margin-top:20px;
+ margin-bottom: 20px;
+ margin-right:20px;
+  padding: 10px;
+  border:1px solid black;
+  border-radius:6px;
+  
+}
+.avv{
+  
+  border:1px solid black;
+  border-radius:6px;
+  margin-top:10px;
+  
+}
